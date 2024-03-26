@@ -1,0 +1,23 @@
+@tailwind components;
+@tailwind utilities;
+
+.dark {
+  background-color: rgb(33, 37, 41); /* Dark grey color */
+  color: white;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-image: url('/beautiful.webp'); /* Updated path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a, button {
+  transition: transform 0.3s ease;
+}
+
+a:hover, button:hover {
+  transform: scale(1.05);
+}
